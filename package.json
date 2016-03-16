@@ -1,0 +1,12 @@
+{
+  "name":"ChatApp",
+  "version": "0.0.1",
+  "description": "Chat application using socket io and mongodb",
+  "author":"Ngô Hùng Phúc ",
+  "private":"true",
+  "dependencies":{
+    "socket.io":"1.4.5",
+    "jade": "*",
+    "express":"*"
+  }
+}
