@@ -1,12 +1,18 @@
 {
-  "name":"ChatApp",
+  "name": "ChatApp",
   "version": "0.0.1",
   "description": "Chat application using socket io and mongodb",
-  "author":"Ngô Hùng Phúc ",
-  "private":"true",
-  "dependencies":{
-    "socket.io":"1.4.5",
+  "author": "Ngô Hùng Phúc ",
+  "private": "true",
+  "dependencies": {
+    "socket.io": "1.4.5",
     "jade": "*",
-    "express":"*"
-  }
+    "express": "*",
+    "snyk": "^1.68.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
